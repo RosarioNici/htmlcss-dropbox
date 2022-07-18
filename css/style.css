@@ -16,6 +16,7 @@ a {
 
 /* end general rules */
 /* header rules */
+
 .fixed-header {
     display: flex;
     background-color: hsl(0deg 0% 100%);
@@ -42,6 +43,29 @@ a {
     color: aliceblue;
     border: none;
 }
+
+.jumbo {
+    background-color: hsl(207deg 52% 81%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbo-contetn {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#jumbo-img {
+    height: 550px;
+}
+
+.jumbo-title {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 
 
 
