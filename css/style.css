@@ -1,0 +1,53 @@
+/* General rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0deg 0% 34%);
+}
+
+/* end general rules */
+/* header rules */
+.fixed-header {
+    display: flex;
+    background-color: hsl(0deg 0% 100%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+}
+
+.fixed-header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+
+.fixed-header-logo>* {
+    margin: 10px;
+}
+
+.button-small {
+    width: 70px;
+    height: 30px;
+    background-color: hsl(217deg 100% 50%);
+    color: aliceblue;
+    border: none;
+}
+
+
+
+
+/* end header rules */
+/* main rules */
+/* end main rules */
+/* footer rules */
+/* end footer rules */
