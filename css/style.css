@@ -14,6 +14,16 @@ a {
     color: hsl(0deg 0% 34%);
 }
 
+.button-normal {
+    width: 200px;
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    background-color: hsl(217deg 100% 50%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* end general rules */
 /* header rules */
 
@@ -68,12 +78,14 @@ a {
     font-size: 50px;
     font-weight: 1000;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
-
-
-
+.jumbo-span {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 20px;
+}
 
 /* end header rules */
 /* main rules */
