@@ -46,24 +46,29 @@ a {
 
 .jumbo {
     background-color: hsl(207deg 52% 81%);
-    height: 500px;
+    height: 570px;
     display: flex;
     flex-direction: column;
 }
 
 .jumbo-contetn {
     display: flex;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 #jumbo-img {
-    height: 550px;
+
+    width: 700px;
 }
 
 .jumbo-title {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
+    font-size: 50px;
+    font-weight: 1000;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 
