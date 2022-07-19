@@ -9,11 +9,13 @@ body {
     font-family: sans-serif;
 }
 
-a {
+.a-none {
     text-decoration: none;
     color: hsl(0deg 0% 34%);
 }
 
+/* end general rules */
+/* utilities */
 .button-normal {
     width: 200px;
     height: 30px;
@@ -24,12 +26,35 @@ a {
     margin-bottom: 30px;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .text-center {
     text-align: center;
 }
 
-/* end general rules */
+.wrap {
+    flex-wrap: wrap;
+}
+
+.zero-auto {
+    margin: 0 auto;
+}
+
+.fixed-width {
+    max-width: 1000px;
+}
+
+/*  end utilities */
 /* header rules */
 
 .fixed-header {
@@ -62,16 +87,12 @@ a {
 .jumbo {
     background-color: hsl(207deg 52% 81%);
     height: 570px;
-    display: flex;
-    flex-direction: column;
 }
 
 .jumbo-contetn,
 .plans,
 .sell-office {
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 #jumbo-img {
@@ -80,8 +101,6 @@ a {
 }
 
 .jumbo-title {
-    max-width: 1000px;
-    margin: 0 auto;
     font-size: 50px;
     font-weight: 1000;
     padding-top: 40px;
@@ -97,12 +116,7 @@ a {
 /* end header rules */
 /* main rules */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1000px;
     margin: 80px auto;
-
 }
 
 .plan {
@@ -123,12 +137,53 @@ a {
 .sell-office {
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
     border: 1px green solid;
     margin: 10px;
 }
 
+/* Section of partner */
+.partner {
+    max-width: 100%;
+    margin: 80px auto;
+}
 
-/* end main rules */
+#partner-img {
+    width: 500px;
+}
+
+.text-partner {
+    margin: 30px;
+}
+
+.text-partner>* {
+    margin: 20px 0px 20px 0px;
+}
+
+.white-button {
+    width: 120px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.cards {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: calc(90% / 3);
+    margin: 40px 10px 0px 10px;
+}
+
+.img-card {
+    max-width: 300px;
+}
+
+.clients {
+    margin: 80px 0px 80px 0px;
+}
+
+/* End main rules */
 /* footer rules */
 /* end footer rules */
