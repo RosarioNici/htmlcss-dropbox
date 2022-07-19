@@ -101,6 +101,10 @@ body {
     display: inline-block;
 }
 
+.fa-solid {
+    margin-right: 5px;
+}
+
 /*  end utilities */
 /* header rules */
 
@@ -187,6 +191,10 @@ body {
 
 .month {
     color: #6b727f;
+}
+
+.column-elements {
+    display: flex;
 }
 
 
