@@ -177,18 +177,8 @@ body {
     padding: 5px;
 }
 
-.flex-sell-office {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-}
-
 .sell-office {
-    display: flex;
-    flex-direction: column;
     border: 1px #d0d0d3 solid;
-
 }
 
 .padding-column>* {
@@ -227,7 +217,6 @@ body {
 
 .cards {
     max-width: 100%;
-    margin: 0 auto;
 }
 
 .card {
@@ -263,7 +252,6 @@ body {
 .sqare-s {
     width: calc(100% / 2);
     height: 50%;
-    background-color: beige;
 
 }
 
@@ -352,10 +340,6 @@ footer {
 
 .footer-span {
     margin-top: 10px;
-}
-
-.container-f {
-    justify-content: space-between;
 }
 
 .languge {
