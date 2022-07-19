@@ -9,14 +9,13 @@ body {
     font-family: sans-serif;
 }
 
+/* end general rules */
+/* utilities */
 .a-none {
     text-decoration: none;
     color: hsl(0deg 0% 34%);
 }
 
-
-/* end general rules */
-/* utilities */
 .button-normal {
     width: 200px;
     height: 30px;
@@ -53,6 +52,11 @@ body {
     flex-wrap: wrap;
 }
 
+.font-size {
+    font-size: 35px;
+    font-weight: 600;
+}
+
 .zero-auto {
     margin: 0 auto;
 }
@@ -61,15 +65,47 @@ body {
     max-width: 1000px;
 }
 
+.fixed-height-column {
+    height: 876.44px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.padding-column {
+    padding: 25px;
+}
+
+.padding-top {
+    padding-top: 40px;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.bottom-margin {
+    margin-bottom: 40px;
+}
+
+.inline {
+    display: inline-block;
+}
 
 /*  end utilities */
 /* header rules */
 
 .fixed-header {
-    display: flex;
     background-color: hsl(0deg 0% 100%);
-    align-items: center;
-    justify-content: space-between;
     padding: 10px;
     height: 60px;
 }
@@ -124,30 +160,45 @@ body {
 /* end header rules */
 /* main rules */
 .container {
-    margin: 80px auto;
+    margin: 130px auto;
+}
+
+.input {
+    margin-right: 15px;
 }
 
 .plan {
-    max-width: calc(100% / 3 -10px);
-    border: 1px green solid;
-    margin: 10px;
+    max-width: calc(90% / 3);
+    border: 1px #d0d0d3 solid;
 }
 
 .bottom-border {
-    border-bottom: 1px green solid;
+    border-bottom: 1px #d0d0d3 solid;
+    padding: 5px;
 }
 
-.felx-sell-office {
+.flex-sell-office {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
 
 .sell-office {
     display: flex;
     flex-direction: column;
-    border: 1px green solid;
-    margin: 10px;
+    border: 1px #d0d0d3 solid;
+
 }
+
+.padding-column>* {
+    margin-top: 20px;
+}
+
+.month {
+    color: #6b727f;
+}
+
 
 /* Section of partner */
 .partner {
@@ -192,11 +243,15 @@ body {
     margin: 80px 0px 80px 0px;
 }
 
+.margin-top-card {
+    margin-top: 15px;
+}
+
 /* section sqaure */
 .square-l {
     width: calc(100% / 3);
     height: 546.33px;
-    background-color: aqua;
+    background-color: hsl(0deg 0% 96%);
     display: flex;
     flex-wrap: wrap;
 }
@@ -209,8 +264,59 @@ body {
     width: calc(100% / 2);
     height: 50%;
     background-color: beige;
-    border: 1px solid black;
+
 }
+
+/* Square logo */
+.green {
+    background-color: hsl(113deg 39% 72%);
+
+}
+
+.green-size {
+    width: 150px;
+    height: 75px;
+}
+
+.bordeaux {
+    background-color: hsl(336deg 85% 21%);
+}
+
+.florida {
+    background-color: hsl(197deg 100% 40%);
+}
+
+.topps {
+    background-color: hsl(0deg 100% 55%);
+}
+
+.bicycle {
+    background-color: hsl(351deg 100% 42%);
+}
+
+.hearst {
+    background-color: hsl(207deg 52% 81%);
+}
+
+.planet {
+    background-color: hsl(228deg 82% 28%);
+}
+
+.clear {
+    background-color: hsl(49deg 100% 59%);
+
+}
+
+.clear-size {
+    width: 150px;
+    height: 75px;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+/* square logo end */
 
 /* end section sqaure */
 
@@ -260,6 +366,7 @@ footer {
 hr {
     max-width: 120px;
     margin-left: 326px;
+    display: block;
 }
 
 /* end footer rules */

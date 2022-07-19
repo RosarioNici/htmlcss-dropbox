@@ -19,7 +19,7 @@
         <!-- I put the jumbo in the header with the fixed menu -->
         <section>
             <div class="container-h">
-                <div class="fixed-header">
+                <div class="fixed-header flex-between">
                     <div class="fixed-header-logo">
                         <img src="./img/logo-small.png" alt="Logo Dropbox">
                         <a class="a-none" href="#">Perchè Dropbox</a>
@@ -66,27 +66,62 @@
         <section class="container fixed-width flex.column">
             <div class="plan-choice">
                 <h1>Trova il piano business che fa per te</h1>
-                <div>
-                    <input class="check" type="radio" value="Fatturazione mensile"> Fatturazione mensile
-                    <input class="check" type="radio" value="Fatturazione annuale"> Fatturazione annuale
+                <div class="margin-top">
+                    <span class="input"><input class="check" type="radio" value="Fatturazione mensile"> Fatturazione
+                        mensile</span>
+                    <span class="input"><input class="check" type="radio" value="Fatturazione annuale"> Fatturazione
+                        annuale</span>
                 </div>
             </div>
             <!-- Part of column for choice prize -->
-            <div class="plans zero-auto fixed-width">
-                <div class="plan">
-                    <div class="singolo">
+            <div class="plans margin-top flex-between zero-auto fixed-width">
+                <div class="plan fixed-height-column">
+                    <div class="team">
                         <div class="bottom-border text-center">
-                            <span><i class="fa-solid fa-user"></i></span>
-                            <span>Singolo</span>
+                            <span><i class="fa-solid fa-users"></i></span>
+                            <span>Team</span>
                         </div>
-                        <h2>Professional</h2>
-                        <p>€12.00</p>
-                        <p>/mese</p>
-                        <button class="button-normal">singolo</button>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A repellat numquam debitis. Veniam,
-                            debitis? Porro non eaque odio ad! Labore vero ducimus perspiciatis, soluta culpa repellat ad
-                            quis similique saepe?
-                        </p>
+                        <div class="padding-column">
+                            <div class="line-height">
+                                <h2>Professional</h2>
+                                <p><strong>€12.00</strong></p>
+                                <p class="month">/utente/mese</p>
+                            </div>
+
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                            </div>
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+                            </div>
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-share-nodes"></i>
+                                    </i>Funzione di produttività premiunm e
+                                    condivisione file semplice e sicura</span>
+                            </div>
+                            <button class="button-normal">Prova gratis per 30 giorni</button>
+                            <div>
+                                <span>Oppure <a href="#">acquista ora</a></span>
+                            </div>
+                            <div class="line-height">
+                                <h3>Punti salienti del piano</h3>
+                                <ul class="no-bullets">
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="plan">
@@ -95,39 +130,130 @@
                             <span><i class="fa-solid fa-users"></i></span>
                             <span>Team</span>
                         </div>
-                        <h2>Professional</h2>
-                        <p>€12.00</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A repellat numquam debitis. Veniam,
-                            debitis? Porro non eaque odio ad! Labore vero ducimus perspiciatis, soluta culpa repellat ad
-                            quis similique saepe?
-                        </p>
-                        <button class="button-normal">singolo</button>
+                        <div class="padding-column">
+                            <div class="line-height">
+                                <h2>Advanced</h2>
+                                <p><strong>€18.00</strong></p>
+                                <p class="month">/utente/mese</p>
+                            </div>
+
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-users"></i> 3 o più utenti</span>
+                            </div>
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo
+                                    team</span>
+                            </div>
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-share-nodes"></i>
+                                    </i>Funzione di produttività premiunm e
+                                    condivisione file semplice e sicura</span>
+                            </div>
+                            <button class="button-normal">Prova gratis per 30 giorni</button>
+                            <div>
+                                <span>Oppure <a href="#">acquista ora</a></span>
+                            </div>
+                            <div class="line-height">
+                                <h3>Punti salienti del piano</h3>
+                                <ul class="no-bullets">
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con <br> Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="plan">
-                    <div class="azienda">
+                <div class="plan fixed-height-column">
+                    <div class="team">
                         <div class="bottom-border text-center">
-                            <span><i class="fa-solid fa-building"></i></span>
-                            <span>Azienda</span>
+                            <span><i class="fa-solid fa-users"></i></span>
+                            <span>Team</span>
                         </div>
-                        <h2>Professional</h2>
-                        <p>€12.00</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A repellat numquam debitis. Veniam,
-                            debitis? Porro non eaque odio ad! Labore vero ducimus perspiciatis, soluta culpa repellat ad
-                            quis similique saepe?
-                        </p>
-                        <button class="button-normal">singolo</button>
+                        <div class="padding-column">
+                            <div class="line-height">
+                                <h2>Enterprice</h2>
+                                <p><strong>Contattaci</strong></p>
+                                <p class="month">-</p>
+                            </div>
+
+                            <div class="column-elements">
+                                <i class="fa-solid fa-user"></i> <span>10 o più utenti</span>
+                            </div>
+                            <div class="column-elements">
+                                <span><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua
+                                    azienda</span>
+                            </div>
+                            <div class="column-elements">
+                                <span>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Assistenza personalizzata per aiutare gli amministratori in una gestione su
+                                    larga scala</span>
+                            </div>
+                            <button class="button-normal">Prova gratis per 30 giorni</button>
+                            <div>
+                                <span>Oppure <a href="#">acquista ora</a></span>
+                            </div>
+                            <div class="line-height">
+                                <h3>Punti salienti del piano</h3>
+                                <ul class="no-bullets">
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Invia file fino a 100GB con Dropbox Transfer
+                                        </span>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- end Part of column for choice prize -->
             <!-- small part of sell-office -->
-            <div class="sell-office zero-auto fixed-width">
+            <div class="sell-office margin-top zero-auto fixed-width">
                 <div class="bottom-border text-center">
                     <span><i class="fa-solid fa-building"></i></span>
                     <span>Azienda</span>
                 </div>
-                <div class="felx-sell-office">
+                <div class="flex-sell-office">
                     <div>
                         <h2>Enterprise</h2>
                         <p>Contatta l'ufficio vendite per i prezzi</p>
@@ -136,7 +262,7 @@
                         <button class="button-normal">Contatta l'ufficio vendite</button>
                     </div>
                 </div>
-                <div>
+                <div class="flex-sell-office">
                     <p>Soluzioni personalizzate e supporto su misura per aiutare i priofessionisti IT nella gestione
                         su qualsiasi scala
                     </p>
@@ -159,78 +285,107 @@
             </div>
             <h1>Esegui più operazioni con Doropbox Business</h1>
             <!-- Cards -->
-            <div class="cards flex wrap">
+            <div class="cards flex-between wrap">
                 <div class="card">
                     <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
                 <div class="card">
-                    <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <img class="img-card" src="./img/business-feature-send-files-it.png" alt="Switching tools">
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
                 <div class="card">
-                    <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <img class="img-card" src="./img/business-feature-coordinate-it.png" alt="Switching tools">
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
                 <div class="card">
-                    <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <img class="img-card" src="./img/business-feature-integrations-it.png" alt="Switching tools">
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
                 <div class="card">
-                    <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <img class="img-card" src="./img/business-feature-multi-device.png" alt="Switching tools">
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
                 <div class="card">
-                    <img class="img-card" src="./img/business-feature-switching-tools.png" alt="Switching tools">
-                    <h3>Passa dimeno da uno sgtrumento all'altro</h3>
-                    <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                    <img class="img-card" src="./img/business-feature-security.png" alt="Switching tools">
+                    <h3 class="line-height">Passa dimeno da uno sgtrumento all'altro</h3>
+                    <p class="margin-top-card">Porta a termine le attività quotidiane con un solo strumento. Crea,
+                        modifica e
+                        condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file MIcrosoft Office e Dropbox
                         Paper direttamente da Dropbox
                     </p>
                 </div>
             </div>
             <!-- end cards -->
-            <div class="clients">
-                <h1>Più di 500.000 teams utilizzano Dropbox Business</h1>
+            <div class="clients ">
+                <h1 class="padding-top bottom-margin font-size">Più di 500.000 teams utilizzano <br> Dropbox Business
+                </h1>
                 <a href="#">Scopri di più sui nostri clienti</a>
             </div>
         </section>
         <!-- area of flex squares -->
         <section class="sqaure-clients">
             <div class="sqaure-left square-l">
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
+                <div class="sqare-s flex green"> <img class="filter green-size" src="./img/designit.svg"
+                        alt="logo designit">
+                </div>
+                <div class="sqare-s flex bordeaux"> <img class="filter" src="./img/arizona_state_university.svg"
+                        alt="University of Arizona">
+                </div>
+                <div class="sqare-s flex florida"><img class="filter" src="./img/university_of_florida.svg"
+                        alt="University of Florida"></div>
+                <div class="sqare-s flex topps"><img class="filter" src="./img/topps.svg" alt="Topps Logo"></div>
             </div>
-            <div class="main-square square-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cupiditate
-                quo, corporis assumenda ipsa nulla? Rem neque minus vitae pariatur repudiandae, veniam animi sit tempore
-                reprehenderit aliquam alias consectetur. Quis!</div>
+            <div class="main-square square-l">
+                <div class="square-midle padding-column">
+                    <img src="./img/designit.svg" alt="Logo designit">
+                    <hr>
+                    <p class="margin-top">"I membri del nostro team lavorano costantemente in paesi, fusi orari e uffici
+                        diversi. Ora molte
+                        soluzioni sono compatibili con queste esigenze, m nessuna è facile quanto Dropbox e Dropbox
+                        Paper. Ora molte soluzioni sono compatibile con queste esigenze ma nessuna e facile come Dropbox
+                        Paper".
+                    </p>
+                    <p class="margin-top">
+                        Morten Thomsen, Global IT lead
+                    </p>
+                </div>
+            </div>
             <div class="square-right square-l">
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
-                <div class="sqare-s">c</div>
+                <div class="sqare-s bicycle flex"><img class="filter" src="./img/world_bicycle_relief.svg"
+                        alt="World bicycle relief logo"></div>
+                <div class="sqare-s flex hearst"><img class="filter" src="./img/hearst_corp.svg" alt="Hearst Corp logo">
+                </div>
+                <div class="sqare-s flex planet"><img class="filter" src="./img/lonely_planet.svg"
+                        alt="Loney Planet logo"></div>
+                <div class="sqare-s flex clear"><img class="filter clear-size" src="./img/clear_channel.svg"
+                        alt="Clear Channel Logo"></div>
             </div>
         </section>
         <!-- end area of flex square -->
@@ -238,7 +393,7 @@
         <section class=" pre-footer">
             <div class="test-free flex-between fixed-width zero-auto">
                 <div>
-                    <h1>Porta Dropbox Business nella tua azienda</h1>
+                    <h1 class="font-size">Porta Dropbox Business <br> nella tua azienda</h1>
                 </div>
                 <div>
                     <button class="button-normal">Inizia la tua prova gratutita</button>
