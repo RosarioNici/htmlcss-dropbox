@@ -275,14 +275,19 @@ body {
     flex-wrap: wrap;
 }
 
-.sqaure-clients {
+.square-clients {
     display: flex;
 }
 
-.sqare-s {
+.square-s {
     width: calc(100% / 2);
     height: 50%;
 
+}
+
+.hr-square {
+    max-width: 120px;
+    display: block;
 }
 
 /* Square logo */
