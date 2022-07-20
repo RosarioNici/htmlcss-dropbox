@@ -64,3 +64,16 @@
 .filter:hover {
     transform: scale(1.3);
 }
+
+
+
+
+/* question effect */
+
+.block-display {
+    opacity: 0;
+}
+
+.block-display:hover {
+    opacity: 1;
+}
