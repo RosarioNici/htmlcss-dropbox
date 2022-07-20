@@ -282,7 +282,6 @@ body {
 .square-s {
     width: calc(100% / 2);
     height: 50%;
-
 }
 
 .hr-square {
@@ -361,7 +360,6 @@ body {
 footer {
     background-color: black;
     height: 400px;
-
 }
 
 .footer-menu {
