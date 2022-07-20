@@ -108,6 +108,12 @@ body {
 /*  end utilities */
 /* header rules */
 
+.fixed-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 .fixed-header {
     background-color: hsl(0deg 0% 100%);
     padding: 10px;
@@ -134,7 +140,7 @@ body {
 
 .jumbo {
     background-color: hsl(207deg 52% 81%);
-    height: 570px;
+    height: 590px;
 }
 
 .jumbo-contetn,
@@ -218,6 +224,13 @@ body {
 
 .white-button {
     width: 120px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.white-button-large {
+    width: 200px;
     height: 30px;
     border: 1px solid grey;
     background-color: white;
@@ -373,12 +386,5 @@ h4 {
     margin-top: 20px;
 }
 
-.block-display {
-    opacity: 0;
-}
-
-h4:active .block-display {
-    opacity: 1;
-}
 
 /* end footer rules */

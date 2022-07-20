@@ -1,0 +1,66 @@
+/* Effect on button */
+.button-small:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px hsl(217deg 100% 50%);
+}
+
+.button-normal:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px hsl(217deg 100% 50%);
+}
+
+.white-button:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.white-button-large:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.a-none:hover {
+    text-decoration: underline;
+}
+
+/* square effect */
+
+.clear:hover {
+    border: 20px solid rgb(255, 234, 141);
+}
+
+.planet:hover {
+    border: 20px solid rgb(116, 132, 194);
+}
+
+.hearst:hover {
+    border: 20px solid rgb(207, 228, 245);
+}
+
+.bicycle:hover {
+    border: 20px solid rgb(233, 98, 119);
+}
+
+.topps:hover {
+    border: 20px solid rgb(248, 103, 103);
+}
+
+.florida:hover {
+    border: 20px solid rgb(101, 192, 228);
+}
+
+.bordeaux:hover {
+    border: 20px solid rgb(136, 62, 91);
+}
+
+.green:hover {
+    border: 20px solid rgb(193, 224, 189);
+}
+
+.filter {
+    transition: 2s;
+}
+
+.filter:hover {
+    transform: scale(1.3);
+}
